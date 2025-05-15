@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Built') {
             steps {
-                bat 'python --version'
+                bat 'ecko Laboratorio 4'
             }
         }
     }
