@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Built') {
             steps {
-                bat 'docker build -t my-python-app .'
+                bat 'docker build -t my-python-app2 .'
             }
         }
     }
