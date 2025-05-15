@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Built') {
             steps {
-                bat 'ecko Laboratorio 4'
+                bat 'echo Laboratorio 4'
             }
         }
     }
