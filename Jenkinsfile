@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Built') {
             steps {
-                bat 'echo Laboratorio 4'
+                bat 'docker build -t my-python-app .'
             }
         }
     }
